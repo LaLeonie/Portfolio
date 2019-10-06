@@ -24,7 +24,7 @@ const Contact = props => {
           <div className="row">
             <div className="col span_12">
               <form className="contact-form" action="post">
-                <div className="input-columns">
+                <div className="input-flex">
                   <input type="text" placeholder="Name" id="name" name="name" />
                   <input
                     type="text"
@@ -35,13 +35,13 @@ const Contact = props => {
                 </div>
                 <input
                   type="text"
-                  placeholder="subject"
+                  placeholder="Subject"
                   id="subject"
                   name="subject"
                 />
                 <textarea
                   name="message"
-                  placeholder="message"
+                  placeholder="Message"
                   id="message"
                   cols="45"
                   rows="7"
