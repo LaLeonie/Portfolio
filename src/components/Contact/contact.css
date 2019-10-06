@@ -1,3 +1,46 @@
+.location-container {
+  display: flex;
+}
+
+.location-container img {
+  width: 50%;
+  height: auto;
+}
+
+.location-text {
+  text-align: center;
+  padding: 0 5%;
+  margin: auto;
+}
+
+.location-text p {
+  margin-top: 10%;
+}
+
+.connect-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.connect-container div {
+  width: 33.33%;
+  align-content: center;
+}
+
+.border-right {
+  border-right: #eaeaea 1px solid;
+}
+
+.connect-container i {
+  font-size: 2rem;
+  color: #294b4f;
+  opacity: 0.8;
+}
+
+.connect-container p {
+  margin-top: 10%;
+}
+
 .contact-form {
   position: relative;
 }
@@ -43,6 +86,7 @@ textarea {
   width: 100%;
   color: #e5e5e5;
   background-color: #294b4f;
+  opacity: 0.9;
   border-radius: 3px;
   line-height: inherit;
   font-size: 14px;

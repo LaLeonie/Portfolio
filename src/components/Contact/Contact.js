@@ -14,11 +14,58 @@ const Contact = props => {
             </div>
           </div>
         </div>
+        {/*________________________________ LOCATIOn________________________________*/}
+        <div className="subsection">
+          <div className="row">
+            <div className="col span_12">
+              <h2>Location</h2>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col span_12">
+              <div className="location-container">
+                <img src="./img/London.png" />
+                <div className="location-text">
+                  <h3>Based in London.</h3>
+                  <h3>Available to work remotely.</h3>
+                  <p>Get in touch. I'd love to hear from you</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/*________________________________ CONNECT ________________________________*/}
+        <div className="subsection">
+          <div className="row">
+            <div className="col span_12">
+              <h2>Let's Connect</h2>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col span_12">
+              <div className="connect-container">
+                <div className="border-right">
+                  <i class="fas fa-phone-square"></i>
+                  <p>07484 143 159</p>
+                </div>
+                <div className="border-right">
+                  <i class="fas fa-envelope-square"></i>
+                  <p>Leonie.Zorzi@hotmail.com</p>
+                </div>
+                <div>
+                  <i class="fab fa-twitter-square"></i>
+                  <p>@LeonieZorzi</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/*________________________________ FORM ________________________________*/}
         <div className="subsection">
           <div className="row">
             <div className="col span_12">
-              <h2>Reach me here.</h2>
+              <h2>Reach me here</h2>
             </div>
           </div>
           <div className="row">
