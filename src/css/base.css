@@ -80,7 +80,7 @@ button,
   font-weight: 800;
   font-family: "Ubuntu", sans-serif;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 1rem;
   box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.2);
   text-align: center;
   line-height: 40px;
@@ -120,14 +120,14 @@ h6,
 /* #Headers */
 
 h1 {
-  font-size: 4rem;
+  font-size: 4.4rem;
   font-weight: 500;
   color: #1c2323;
   font-family: "Playfair Display", serif;
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 1.4rem;
   font-weight: 500;
   display: inline-block;
   position: relative;
@@ -139,16 +139,23 @@ h2 {
 
 h3 {
   font-family: "Ubuntu", sans-serif;
-  font-size: 18px;
+  font-size: 1.2rem;
   color: #5b7c7f;
   font-weight: 300;
 }
 
+h4 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.3rem;
+  color: #5b7c7f;
+  font-weight: 500;
+}
+
 h5 {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 15px;
-  color: #5b7c7f;
-  font-weight: 300;
+  font-size: 1.5rem;
+  color: #eafdff;
+  font-weight: 700;
 }
 
 h2:before {
@@ -160,10 +167,6 @@ h2:before {
   top: -20px;
   width: 20px;
   transform: translate3d(-50%, 0, 0);
-  -webkit-transform: translate3d(-50%, 0, 0);
-  -ms-transform: translate3d(-50%, 0, 0);
-  -ms-transform: translate(-50%, 0);
-  -o-transform: translate(-50%, 0);
 }
 
 /* #paragraphs */

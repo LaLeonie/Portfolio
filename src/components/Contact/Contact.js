@@ -26,8 +26,8 @@ const Contact = props => {
               <div className="location-container">
                 <img src="./img/London.png" />
                 <div className="location-text">
-                  <h3>Based in London.</h3>
-                  <h3>Available to work remotely.</h3>
+                  <h4>Based in London.</h4>
+                  <h4>Available to work remotely.</h4>
                   <p>Get in touch. I'd love to hear from you</p>
                 </div>
               </div>
