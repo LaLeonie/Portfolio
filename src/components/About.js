@@ -19,14 +19,12 @@ const About = props => {
             <div className="col span_12">
               <h2>About Me</h2>
               <p>
-                Hybrid of an imaginative, enthusiastic right brain and an
-                analytical, deadline-driven left brain. The left side loves
-                learning new technologies and enjoys solving real-world problems
-                with code. The right side finds its zen moment when developing
-                engaging digital products, using an arsenal of coding and design
-                skills. Together with an empathetic, inquisitive soul, they form
-                a resourceful A-team that thrives on creating meaningful,
-                user-centric digital products.
+                Full-stack web developer with 3+ years of experience in branded
+                content and media production. Turned to web development as I
+                enjoy the analytical and creative challenge of solving real-
+                world problems with code. As a producer and production manager,
+                I have worked for brands, agencies, and charities, managing
+                productions and teams from initial brief to final delivery.
               </p>
             </div>
           </div>
@@ -105,7 +103,6 @@ const About = props => {
               <a className="button" href="assets/LeonieZorzi_CV.pdf" download>
                 Download my CV
               </a>
-              <button href="#">Print my Resume</button>
             </div>
           </div>
         </div>

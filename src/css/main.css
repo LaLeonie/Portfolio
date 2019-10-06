@@ -18,6 +18,12 @@ Header Dark: #294B4F;
 Off Black: #1C2323; 
 Body Background Color: #e5e5e5; 
 
+FONT REFERENCE
+font-family: 'Playfair Display', serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Source Serif Pro', serif;
+font-family: 'Lora', serif;
+font-family: 'Ubuntu', sans-serif;
 /** _____________________________HEADER_____________________________**/
 
 .img-profile {
@@ -35,6 +41,7 @@ Body Background Color: #e5e5e5;
 }
 
 .main-nav ul li a {
+  font-family: "Ubuntu", sans-serif;
   background: #ffffff;
   color: #294b4f;
   text-transform: uppercase;
@@ -44,14 +51,6 @@ Body Background Color: #e5e5e5;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  position: relative;
-  -webkit-transition-property: color;
-  transition-property: color;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
   width: 100%;
   cursor: pointer;
 }

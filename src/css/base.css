@@ -12,10 +12,8 @@ html {
 
 body {
   background: #eaeaea;
-  font: 14px/22px "Source Sans Pro", "Helvetica", "Arial", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   color: #999999;
-  -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
-  -webkit-text-size-adjust: 100%;
   margin: 0;
 }
 
@@ -78,10 +76,9 @@ button,
   border: none;
   border-radius: 5px;
   position: relative;
-  /* border-bottom: 2px solid #5b7c7f; */
   color: #eafdff;
   font-weight: 800;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   cursor: pointer;
   font-size: 15px;
   box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.2);
@@ -106,7 +103,7 @@ a:focus {
 
 /*-------------------Typography-----------------------*/
 
-.page-number,
+/* .page-number,
 .listing .listing-event .data li,
 .listing a,
 .main-nav ul li,
@@ -116,39 +113,42 @@ h3,
 h4,
 h5,
 h6,
-.but span,
 .author a {
-  font-family: "Roboto Slab", "Helvetica", "Arial", sans-serif;
-}
+  font-family: "Playfair Display", serif;
+} */
 
 /* #Headers */
 
 h1 {
-  font-size: 55px;
-  font-weight: 400;
+  font-size: 4rem;
+  font-weight: 500;
   color: #1c2323;
-  /* margin-bottom: 20px; */
+  font-family: "Playfair Display", serif;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 500;
+  display: inline-block;
+  position: relative;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  font-family: "Source Serif Pro", serif;
+  letter-spacing: 0.05rem;
 }
 
 h3 {
+  font-family: "Ubuntu", sans-serif;
   font-size: 18px;
   color: #5b7c7f;
   font-weight: 300;
 }
 
 h5 {
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 15px;
   color: #5b7c7f;
   font-weight: 300;
-}
-
-h2 {
-  font-size: 20px;
-  font-weight: 700;
-  display: inline-block;
-  position: relative;
-  text-transform: uppercase;
-  margin-bottom: 40px;
 }
 
 h2:before {
@@ -168,12 +168,15 @@ h2:before {
 
 /* #paragraphs */
 p {
+  font-family: "Source Sans Pro", sans-serif;
   line-height: 1.4rem;
 }
 
 /* #Lists */
 
-li {
+li,
+label {
+  font-family: "Source Sans Pro", sans-serif;
   list-style: none;
   line-height: 1.5rem;
 }
