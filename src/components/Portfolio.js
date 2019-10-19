@@ -24,12 +24,12 @@ const Portfolio = props => {
               <div className="discipline">
                 <ul>
                   <li className={subpage === "code" ? "active-discipline" : ""}>
-                    <button onClick={() => setSubpage("code")}>Code</button>
+                    <a onClick={() => setSubpage("code")}>Code</a>
                   </li>
                   <li
                     className={subpage === "video" ? "active-discipline" : ""}
                   >
-                    <button onClick={() => setSubpage("video")}>Video</button>
+                    <a onClick={() => setSubpage("video")}>Video</a>
                   </li>
                 </ul>
               </div>
