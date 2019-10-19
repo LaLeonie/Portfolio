@@ -5,36 +5,39 @@ const CodeProjectFilter = ({ codeFilter, setCodeFilter }) => {
 
   return (
     <form className="code-form">
-      <label>
-        <div>All</div>
-        <input
-          type="radio"
-          name="codingProject"
-          value="all"
-          checked={codeFilter === "all"}
-          onChange={handleChange}
-        />
+      <input
+        id="all-coding"
+        type="radio"
+        name="codingProject"
+        value="all"
+        checked={codeFilter === "all"}
+        onChange={handleChange}
+      />
+      <label className="border-right" for="all-coding">
+        All
       </label>
-      <label>
-        <div>Solo</div>
-        <input
-          type="radio"
-          name="codingProject"
-          value="solo"
-          checked={codeFilter === "solo"}
-          onChange={handleChange}
-        />
+
+      <input
+        id="solo-coding"
+        type="radio"
+        name="codingProject"
+        value="solo"
+        checked={codeFilter === "solo"}
+        onChange={handleChange}
+      />
+      <label className="border-right" for="solo-coding">
+        Solo
       </label>
-      <label>
-        <div>Team</div>
-        <input
-          type="radio"
-          name="codingProject"
-          value="team"
-          checked={codeFilter === "team"}
-          onChange={handleChange}
-        />
-      </label>
+
+      <input
+        id="team-coding"
+        type="radio"
+        name="codingProject"
+        value="team"
+        checked={codeFilter === "team"}
+        onChange={handleChange}
+      />
+      <label for="team-coding">Team</label>
     </form>
   );
 };
