@@ -45,11 +45,11 @@ const Contact = props => {
             <div className="col span_12">
               <div className="connect-container">
                 <div className="border-right">
-                  <i class="fas fa-phone-square"></i>
+                  <i className="fas fa-phone-square"></i>
                   <p>07484 143 159</p>
                 </div>
                 <div className="border-right">
-                  <i class="fas fa-envelope-square"></i>
+                  <i className="fas fa-envelope-square"></i>
                   <p>Leonie.Zorzi@hotmail.com</p>
                 </div>
                 <div>
