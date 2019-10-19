@@ -1,12 +1,30 @@
 const codeData = [
   {
+    name: "Autsera",
+    description: "Progressive Web App",
+    category: "team",
+    tech: ["./assets/React.svg"],
+    link: "https://github.com/LaLeonie/Autsera",
+    alt: "Image of Autsera App",
+    image: "./img/portfolio/Code/Autsera.png"
+  },
+  {
     name: "Flee Your Followers",
     description: "React Game",
     category: "team",
     tech: ["./assets/React.svg"],
-    link: "https://leonie-jan-tamagotchi.netlify.com/",
+    link: "https://github.com/LaLeonie/leonie-jan-app",
     alt: "Image of Flee Your Followers App",
     image: "./img/portfolio/Code/FleeYourFollowers.png"
+  },
+  {
+    name: "SaVaGe Artwork Creator",
+    description: "App to create SVGs",
+    category: "team",
+    tech: ["./assets/PostgreSQL.svg", "./assets/Node.svg"],
+    link: "https://github.com/LaLeonie/SaVaGe-Artwork-Creator",
+    alt: "Image of SaVaGe Artwork Creator",
+    image: "./img/portfolio/Code/Savage.png"
   },
   {
     name: "Meet Me In The Middle",
@@ -20,15 +38,6 @@ const codeData = [
     link: "https://github.com/LaLeonie/Meet-Me-In-the-Middle",
     alt: "Screenshot of app",
     image: "./img/portfolio/Code/MeetMe.png"
-  },
-  {
-    name: "SaVaGe Artwork Creator",
-    description: "App to create SVGs",
-    category: "team",
-    tech: ["./assets/PostgreSQL.svg", "./assets/Node.svg"],
-    link: "https://github.com/LaLeonie/SaVaGe-Artwork-Creator",
-    alt: "Image of SaVaGe Artwork Creator",
-    image: "./img/portfolio/Code/Savage.png"
   },
   {
     name: "JS Calculator",
