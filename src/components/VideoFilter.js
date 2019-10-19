@@ -13,7 +13,7 @@ const VideoProjectFilter = ({ videoFilter, setVideoFilter }) => {
         checked={videoFilter === "all"}
         onChange={handleCatChange}
       />
-      <label className="border-right" for="all-video">
+      <label className="border-right" htmlFor="all-video">
         All
       </label>
 
@@ -25,7 +25,7 @@ const VideoProjectFilter = ({ videoFilter, setVideoFilter }) => {
         checked={videoFilter === "commercial"}
         onChange={handleCatChange}
       />
-      <label className="border-right" for="commercial-video">
+      <label className="border-right" htmlFor="commercial-video">
         Commercial
       </label>
 
@@ -37,7 +37,7 @@ const VideoProjectFilter = ({ videoFilter, setVideoFilter }) => {
         checked={videoFilter === "event"}
         onChange={handleCatChange}
       />
-      <label className="border-right" for="event-video">
+      <label className="border-right" htmlFor="event-video">
         Events
       </label>
 
@@ -49,7 +49,7 @@ const VideoProjectFilter = ({ videoFilter, setVideoFilter }) => {
         checked={videoFilter === "mograph"}
         onChange={handleCatChange}
       />
-      <label for="mograph-video">Motion Graphics</label>
+      <label htmlFor="mograph-video">Motion Graphics</label>
     </form>
   );
 };
