@@ -13,7 +13,7 @@ const CodeProjectFilter = ({ codeFilter, setCodeFilter }) => {
         checked={codeFilter === "all"}
         onChange={handleChange}
       />
-      <label className="border-right" for="all-coding">
+      <label className="border-right" htmlFor="all-coding">
         All
       </label>
 
@@ -25,7 +25,7 @@ const CodeProjectFilter = ({ codeFilter, setCodeFilter }) => {
         checked={codeFilter === "solo"}
         onChange={handleChange}
       />
-      <label className="border-right" for="solo-coding">
+      <label className="border-right" htmlFor="solo-coding">
         Solo
       </label>
 
@@ -37,7 +37,7 @@ const CodeProjectFilter = ({ codeFilter, setCodeFilter }) => {
         checked={codeFilter === "team"}
         onChange={handleChange}
       />
-      <label for="team-coding">Team</label>
+      <label htmlFor="team-coding">Team</label>
     </form>
   );
 };
