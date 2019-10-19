@@ -132,6 +132,10 @@ font-family: 'Ubuntu', sans-serif;
   margin-top: 20%;
 }
 
+.software li {
+  line-height: 2rem;
+}
+
 .download {
   display: flex;
   justify-content: space-evenly;
@@ -187,7 +191,7 @@ font-family: 'Ubuntu', sans-serif;
   content: " ";
   height: 20px;
   position: absolute;
-  right: -0.6em;
+  right: -0.55em;
   top: 1px;
   width: 20px;
   -webkit-background-clip: padding-box;
@@ -197,14 +201,15 @@ font-family: 'Ubuntu', sans-serif;
 
 .timeline .timeline-inner .name h4 {
   margin-bottom: 0;
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: 400;
 }
 
 .timeline .timeline-inner .name span.date {
+  font-family: "Source Sans Pro", sans-serif;
   color: #999999;
-  font-size: 13.5px;
-  font-weight: 400;
+  font-size: 0.9rem;
+  font-weight: 300;
 }
 
 .comp-container {
@@ -342,16 +347,9 @@ font-family: 'Ubuntu', sans-serif;
   margin: auto 0;
 }
 
-/* .desc h5 {
-  color: #eafdff;
-  font-size: 1.5rem;
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 700;
-} */
-
 .desc span {
   color: #e5e5e5;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .tech-stack {

@@ -19,7 +19,7 @@ const Header = ({ page, setPage }) => {
     <header id="header" className="col span_2">
       <div className="main-header">
         <div className="img-profile">
-          <img src="img/profile.jpg" alt="image of me" />
+          <img src="img/profile.jpg" alt="My profile" />
         </div>
         <nav id="main-nav" className="main-nav">
           <ul>

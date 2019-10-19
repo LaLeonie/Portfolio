@@ -24,7 +24,7 @@ const Resume = props => {
             <div className="col span_12 timeline">
               <div className="timeline-inner">
                 <div className="name">
-                  <span className="data">July 2019 - October 2019</span>
+                  <span className="date">July 2019 - October 2019</span>
                   <h4>Full-stack Js Student | Founders & Coders</h4>
                 </div>
                 <div className="detail">
@@ -37,7 +37,7 @@ const Resume = props => {
               </div>
               <div className="timeline-inner">
                 <div className="name">
-                  <span className="data">May 2018 - June 2018 </span>
+                  <span className="date">May 2018 - June 2018 </span>
                   <h4>Producer & Motion Designer | Self-employed</h4>
                 </div>
                 <div className="detail">
@@ -51,7 +51,7 @@ const Resume = props => {
               </div>
               <div className="timeline-inner">
                 <div className="name">
-                  <span className="data">September 2016 - April 2019</span>
+                  <span className="date">September 2016 - April 2019</span>
                   <h4>Production Manager | MetFilm Creative</h4>
                 </div>
                 <div className="detail">
@@ -76,8 +76,8 @@ const Resume = props => {
             <div className="col span_12 timeline">
               <div className="timeline-inner">
                 <div className="name">
-                  <span className="data">September 2010 - July 2015</span>
-                  <h4>BA Media Management | First-className</h4>
+                  <span className="date">September 2010 - July 2015</span>
+                  <h4>BA Media Management | First-class</h4>
                   <h5>RheinMain University of Applied Science</h5>
                 </div>
                 <div className="detail">
@@ -91,7 +91,7 @@ const Resume = props => {
               </div>
               <div className="timeline-inner">
                 <div className="name">
-                  <span className="data">September 2015 - September 2016</span>
+                  <span className="date">September 2015 - September 2016</span>
                   <h4>MA Business and Producing | 2:1</h4>
                   <h5>University of West London</h5>
                 </div>

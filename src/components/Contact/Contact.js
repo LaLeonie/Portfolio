@@ -24,7 +24,7 @@ const Contact = props => {
           <div className="row">
             <div className="col span_12">
               <div className="location-container">
-                <img src="./img/London.png" />
+                <img src="./img/London.png" alt="London" />
                 <div className="location-text">
                   <h4>Based in London.</h4>
                   <h4>Available to work remotely.</h4>

@@ -14,14 +14,14 @@ const CodeProjectList = ({ codeFilter }) => {
         filteredProjects.map(el => (
           <li className="sample-work-item" key={el.name}>
             <div className="item web">
-              <a href={el.link} target="_blank">
+              <a href={el.link}>
                 <div className="desc">
                   <div className="desc-content">
-                    <h5>{el.name}</h5>
+                    <h6>{el.name}</h6>
                     <span>{el.description}</span>
                     <span className="tech-stack">
                       {el.tech.map(elem => (
-                        <img src={elem} key={elem} />
+                        <img src={elem} key={elem} alt={el.name} />
                       ))}
                     </span>
                   </div>

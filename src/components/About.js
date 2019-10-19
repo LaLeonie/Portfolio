@@ -84,7 +84,7 @@ const About = props => {
           <div className="row">
             <div className="col-md-12">
               <h2>Software Skills</h2>
-              <ul>
+              <ul className="software">
                 <li>Figma</li>
                 <li>Git & Github</li>
                 <li>Postman</li>
