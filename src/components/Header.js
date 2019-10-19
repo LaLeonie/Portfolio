@@ -25,55 +25,55 @@ const Header = ({ page, setPage }) => {
           <ul>
             {/* ----------------------ABOUT----------------------------*/}
             <li className="aboutLink active">
-              <a
+              <button
                 style={page === "about" ? activeLinkStyle : null}
                 id="aboutTab"
                 className="tab active"
                 onClick={() => setPage("about")}
               >
                 <i className="fas fa-female"></i>
-                About Me
-                <span>What I do</span>
-              </a>
+                <span className="header-title">About Me</span>
+                <span className="header-subtitle">What I do</span>
+              </button>
             </li>
             {/* ----------------------RESUME----------------------------*/}
             <li className="resumeLink">
-              <a
+              <button
                 id="resumeTab"
                 className="tab"
                 style={page === "resume" ? activeLinkStyle : null}
                 onClick={() => setPage("resume")}
               >
                 <i className="fas fa-suitcase"></i>
-                Resume
-                <span>What I have Done</span>
-              </a>
+                <span className="header-title">Resume</span>
+                <span className="header-subtitle">What I have Done</span>
+              </button>
             </li>
             {/* ----------------------PORTFOLIO----------------------------*/}
             <li className="portfolioLink">
-              <a
+              <button
                 id="portfolioTab"
                 className="tab"
                 onClick={() => setPage("portfolio")}
                 style={page === "portfolio" ? activeLinkStyle : null}
               >
                 <i className="fas fa-eye"></i>
-                Portfolio
-                <span>What I can Do</span>
-              </a>
+                <span className="header-title">Portfolio</span>
+                <span className="header-subtitle">What I can Do</span>
+              </button>
             </li>
             {/* ----------------------CONTACT----------------------------*/}
             <li className="contactLink">
-              <a
+              <button
                 id="contactTab"
                 className="tab"
                 style={page === "contact" ? activeLinkStyle : null}
                 onClick={() => setPage("contact")}
               >
                 <i className="fas fa-envelope"></i>
-                Contact
-                <span>What you can do</span>
-              </a>
+                <span className="header-title">Contact</span>
+                <span className="header-subtitle">What you can do</span>
+              </button>
             </li>
           </ul>
         </nav>
