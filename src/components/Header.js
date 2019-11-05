@@ -1,4 +1,5 @@
 import React from "react";
+import ProfilePicture from "../assets/img/profile.jpg";
 
 const Header = ({ page, setPage }) => {
   // const links = document.querySelectorAll("li");
@@ -19,7 +20,7 @@ const Header = ({ page, setPage }) => {
     <header id="header" className="col span_2">
       <div className="main-header">
         <div className="img-profile">
-          <img src="img/profile.jpg" alt="My profile" />
+          <img src={ProfilePicture} alt="My profile" />
         </div>
         <nav id="main-nav" className="main-nav">
           <ul>

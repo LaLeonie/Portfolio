@@ -1,5 +1,6 @@
 import React from "react";
 import "./contact.css";
+import London from "../../assets/img/London.png";
 
 const Contact = props => {
   return (
@@ -24,7 +25,7 @@ const Contact = props => {
           <div className="row">
             <div className="col span_12">
               <div className="location-container">
-                <img src="./img/London.png" alt="London" />
+                <img src={London} alt="London" />
                 <div className="location-text">
                   <h4>Based in London.</h4>
                   <h4>Available to work remotely.</h4>
