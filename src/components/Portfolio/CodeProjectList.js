@@ -1,5 +1,5 @@
 import React from "react";
-import codeData from "../data/codeData";
+import codeData from "../../data/codeData";
 
 const CodeProjectList = ({ codeFilter }) => {
   let filteredProjects;

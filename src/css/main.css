@@ -132,8 +132,20 @@ font-family: 'Ubuntu', sans-serif;
   margin-top: 20%;
 }
 
+.software {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  grid-gap: 5%;
+}
+
 .software li {
   line-height: 2rem;
+  justify-self: start;
+}
+
+.software .align-right {
+  justify-self: end;
 }
 
 .download {

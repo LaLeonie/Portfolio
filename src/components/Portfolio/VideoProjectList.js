@@ -1,5 +1,5 @@
 import React from "react";
-import videoData from "../data/videoData";
+import videoData from "../../data/videoData";
 
 const VideoProjectList = ({ videoFilter }) => {
   let filteredProjects;

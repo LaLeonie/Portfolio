@@ -1,5 +1,5 @@
 import React from "react";
-import ProfilePicture from "../assets/img/profile.jpg";
+import ProfilePicture from "../../assets/img/profile.jpg";
 
 const Header = ({ page, setPage }) => {
   // const links = document.querySelectorAll("li");

@@ -1,8 +1,8 @@
 import React from "react";
-import About from "./About";
-import Resume from "./Resume";
-import Portfolio from "./Portfolio";
-import Contact from "./Contact/Contact";
+import About from "../About/About";
+import Resume from "../Resume/Resume";
+import Portfolio from "../Portfolio/Portfolio";
+import Contact from "../Contact/Contact";
 
 const Main = ({ page }) => {
   return (

@@ -1,12 +1,13 @@
 import React from "react";
-import HTMLicon from "../assets/icons/HTML.png";
-import CSSicon from "../assets/icons/CSS.png";
-import JSicon from "../assets/icons/js.png";
-import NODEicon from "../assets/icons/Node.png";
-import REACTicon from "../assets/icons/React.png";
-import HANDLEBARSicon from "../assets/icons/handlebars.png";
-import EXPRESSicon from "../assets/icons/express.png";
-import SQLicon from "../assets/icons/postgresSQL.png";
+import HTMLicon from "../../assets/icons/HTML.png";
+import CSSicon from "../../assets/icons/CSS.png";
+import JSicon from "../../assets/icons/js.png";
+import NODEicon from "../../assets/icons/Node.png";
+import REACTicon from "../../assets/icons/React.png";
+import HANDLEBARSicon from "../../assets/icons/handlebars.png";
+import EXPRESSicon from "../../assets/icons/express.png";
+import SQLicon from "../../assets/icons/postgresSQL.png";
+import CV from "../../assets/LeonieZorzi_CV.pdf";
 
 const About = props => {
   return (
@@ -85,15 +86,15 @@ const About = props => {
             <div className="col-md-12">
               <h2>Software Skills</h2>
               <ul className="software">
+                <li className="align-right">Git & Github</li>
                 <li>Figma</li>
-                <li>Git & Github</li>
-                <li>Heroku</li>
-                <li>Netflify</li>
-                <li>Travis</li>
-                <li>Postman</li>
+                <li className="align-right">Heroku</li>
                 <li>Adobe Photoshop</li>
-                <li>Adobe Illustrator</li>
+                <li className="align-right">Netflify</li>
                 <li>Adobe InDesign</li>
+                <li className="align-right">Travis</li>
+                <li>Adobe Illustrator</li>
+                <li className="align-right">Postman</li>
                 <li>Adobe After Effects</li>
               </ul>
             </div>
@@ -103,7 +104,7 @@ const About = props => {
         <div className="subsection">
           <div className="row">
             <div className="download">
-              <a className="button" href="assets/LeonieZorzi_CV.pdf" download>
+              <a className="button" href={CV} download>
                 Download my CV
               </a>
             </div>
