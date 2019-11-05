@@ -1,4 +1,12 @@
 import React from "react";
+import HTMLicon from "../assets/icons/HTML.png";
+import CSSicon from "../assets/icons/CSS.png";
+import JSicon from "../assets/icons/js.png";
+import NODEicon from "../assets/icons/Node.png";
+import REACTicon from "../assets/icons/React.png";
+import HANDLEBARSicon from "../assets/icons/handlebars.png";
+import EXPRESSicon from "../assets/icons/express.png";
+import SQLicon from "../assets/icons/postgresSQL.png";
 
 const About = props => {
   return (
@@ -36,44 +44,36 @@ const About = props => {
               <h2>Tech Stack</h2>
               <div className="tech-stack-wrapper">
                 <div className="tech-stack-item">
-                  <img src="assets/1x/HTML.png" alt="HTML" />
+                  <img src={HTMLicon} alt="HTML" />
                   <p>HTML</p>
                 </div>
                 <div className="tech-stack-item">
-                  <img src="assets/1x/CSS.png" alt="CSS" />
+                  <img src={CSSicon} alt="CSS" />
                   <p>CSS</p>
                 </div>
                 <div className="tech-stack-item">
-                  <img src="assets/1x/js.png" alt="Javascript" />
+                  <img src={JSicon} alt="Javascript" />
                   <p>JavaScript</p>
                 </div>
                 <div className="tech-stack-item">
-                  <img src="assets/1x/Node.png" alt="Node" />
+                  <img src={NODEicon} alt="Node" />
                   <p>Node.js</p>
                 </div>
                 <div className="tech-stack-item">
-                  <img src="assets/1x/React.png" alt="Express" />
+                  <img src={REACTicon} alt="Express" />
                   <p>React</p>
                 </div>
                 <div className="tech-stack-item">
-                  <img src="assets/1x/handlebars.png" alt="Handlebars" />
+                  <img src={HANDLEBARSicon} alt="Handlebars" />
                   <p>Handlebars</p>
                 </div>
                 <div className="tech-stack-item">
-                  <img src="assets/1x/express.png" alt="Express" />
+                  <img src={EXPRESSicon} alt="Express" />
                   <p>Express</p>
                 </div>
                 <div className="tech-stack-item">
-                  <img src="assets/1x/postgresSQL.png" alt="PostgreSQL" />
+                  <img src={SQLicon} alt="PostgreSQL" />
                   <p>PostgreSQL</p>
-                </div>
-                <div className="tech-stack-item">
-                  <img src="assets/1x/Heroku.png" alt="Heroku" />
-                  <p>Heroku</p>
-                </div>
-                <div className="tech-stack-item">
-                  <img src="assets/1x/Travis.png" alt="Travis" />
-                  <p>Travis</p>
                 </div>
               </div>
             </div>
@@ -87,6 +87,9 @@ const About = props => {
               <ul className="software">
                 <li>Figma</li>
                 <li>Git & Github</li>
+                <li>Heroku</li>
+                <li>Netflify</li>
+                <li>Travis</li>
                 <li>Postman</li>
                 <li>Adobe Photoshop</li>
                 <li>Adobe Illustrator</li>
