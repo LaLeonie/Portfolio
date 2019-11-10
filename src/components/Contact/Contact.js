@@ -54,7 +54,7 @@ const Contact = props => {
                   <p>Leonie.Zorzi@hotmail.com</p>
                 </div>
                 <div>
-                  <i class="fab fa-twitter-square"></i>
+                  <i className="fab fa-twitter-square"></i>
                   <p>@LeonieZorzi</p>
                 </div>
               </div>

@@ -1,0 +1,141 @@
+.img-profile {
+  position: relative;
+  margin-bottom: 1px;
+}
+
+.main-nav ul li {
+  color: #294b4f;
+  display: block;
+  position: relative;
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 1px;
+  text-align: center;
+}
+
+.main-nav ul li button {
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  padding: 30px 0;
+  height: 9rem;
+  border-radius: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+  background: transparent;
+}
+
+.main-nav ul li button i {
+  font-size: 1.4rem;
+}
+
+.header-title {
+  font-size: 1rem;
+}
+
+.header-subtitle {
+  font-size: 0.7rem;
+  font-weight: 400;
+  line-height: 0.8rem;
+  color: #5b7c7f;
+  opacity: 0.9;
+}
+
+.main-header:after {
+  content: "";
+  background: #e5e5e5;
+  height: 100%;
+  top: 0;
+  right: -1px;
+  z-index: 1;
+  position: absolute;
+  width: 1px;
+}
+
+.link-about {
+  background-color: #ffffff;
+  background-image: linear-gradient(
+    to left,
+    transparent,
+    transparent 50%,
+    #04eaff 50%,
+    #04eaff
+  );
+  background-position: 0 0;
+  background-size: 200% 100%;
+}
+
+.link-resume,
+.link-contact,
+.link-portfolio,
+.exit-done {
+  background-color: #ffffff;
+  background-position: -100% 0;
+  background-size: 200% 100%;
+  background-image: linear-gradient(
+    to left,
+    transparent,
+    transparent 50%,
+    #04eaff 50%,
+    #04eaff
+  );
+  background-position: 100% 0;
+  background-size: 200% 100%;
+}
+
+.enter {
+  background-position: -100% 0;
+  background-size: 200% 100%;
+  background-image: linear-gradient(
+    to left,
+    transparent,
+    transparent 50%,
+    #04eaff 50%,
+    #04eaff
+  );
+  background-position: 100% 0;
+  background-size: 200% 100%;
+}
+
+.enter-active {
+  transition: all 0.25s ease-in;
+  background-position: 0 0;
+  /* transition: background-color 600ms linear; */
+}
+
+.enter-done {
+  background-image: linear-gradient(
+    to left,
+    transparent,
+    transparent 50%,
+    #04eaff 50%,
+    #04eaff
+  );
+  background-position: 0 0;
+}
+
+.exit {
+  background-image: linear-gradient(
+    to left,
+    transparent,
+    transparent 50%,
+    #04eaff 50%,
+    #04eaff
+  );
+  background-position: 0 0;
+  background-size: 200% 100%;
+}
+
+.exit-active {
+  transition: all 0.1s ease-in;
+  background-position: 100% 0;
+}
+
+.exit-done {
+  /* background-color: #ffffff; */
+}
