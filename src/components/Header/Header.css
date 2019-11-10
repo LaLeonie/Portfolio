@@ -4,6 +4,7 @@
 }
 
 .main-nav ul li {
+  color: #294b4f;
   display: block;
   position: relative;
   font-weight: 700;
@@ -57,7 +58,16 @@
 }
 
 .link-about {
-  background-color: #04eaff;
+  background-color: #ffffff;
+  background-image: linear-gradient(
+    to left,
+    transparent,
+    transparent 50%,
+    #04eaff 50%,
+    #04eaff
+  );
+  background-position: 0 0;
+  background-size: 200% 100%;
 }
 
 .link-resume,
@@ -65,27 +75,67 @@
 .link-portfolio,
 .exit-done {
   background-color: #ffffff;
-  color: #294b4f;
+  background-position: -100% 0;
+  background-size: 200% 100%;
+  background-image: linear-gradient(
+    to left,
+    transparent,
+    transparent 50%,
+    #04eaff 50%,
+    #04eaff
+  );
+  background-position: 100% 0;
+  background-size: 200% 100%;
+}
+
+.enter {
+  background-position: -100% 0;
+  background-size: 200% 100%;
+  background-image: linear-gradient(
+    to left,
+    transparent,
+    transparent 50%,
+    #04eaff 50%,
+    #04eaff
+  );
+  background-position: 100% 0;
+  background-size: 200% 100%;
 }
 
 .enter-active {
-  background-color: #04eaff;
-  transition: background-color 600ms linear;
+  transition: all 0.25s ease-in;
+  background-position: 0 0;
+  /* transition: background-color 600ms linear; */
 }
 
 .enter-done {
-  background-color: #04eaff;
+  background-image: linear-gradient(
+    to left,
+    transparent,
+    transparent 50%,
+    #04eaff 50%,
+    #04eaff
+  );
+  background-position: 0 0;
 }
 
 .exit {
-  background-color: #04eaff;
+  background-image: linear-gradient(
+    to left,
+    transparent,
+    transparent 50%,
+    #04eaff 50%,
+    #04eaff
+  );
+  background-position: 0 0;
+  background-size: 200% 100%;
 }
 
 .exit-active {
-  background-color: #ffffff;
-  transition: background-color 200ms linear;
+  transition: all 0.1s ease-in;
+  background-position: 100% 0;
 }
 
 .exit-done {
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
 }
