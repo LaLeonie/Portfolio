@@ -10,13 +10,6 @@
   font-size: 15px;
   margin-bottom: 1px;
   text-align: center;
-  background: #ffffff;
-  color: #294b4f;
-}
-
-.main-nav ul li .activeLink {
-  background: #04eaff;
-  color: #294b4f;
 }
 
 .main-nav ul li button {
@@ -33,6 +26,7 @@
   width: 100%;
   cursor: pointer;
   outline: none;
+  background: transparent;
 }
 
 .main-nav ul li button i {
@@ -60,4 +54,38 @@
   z-index: 1;
   position: absolute;
   width: 1px;
+}
+
+.link-about {
+  background-color: #04eaff;
+}
+
+.link-resume,
+.link-contact,
+.link-portfolio,
+.exit-done {
+  background-color: #ffffff;
+  color: #294b4f;
+}
+
+.enter-active {
+  background-color: #04eaff;
+  transition: background-color 600ms linear;
+}
+
+.enter-done {
+  background-color: #04eaff;
+}
+
+.exit {
+  background-color: #04eaff;
+}
+
+.exit-active {
+  background-color: #ffffff;
+  transition: background-color 200ms linear;
+}
+
+.exit-done {
+  background-color: #ffffff;
 }
