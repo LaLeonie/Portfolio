@@ -8,6 +8,7 @@ import HANDLEBARSicon from "../../assets/icons/handlebars.png";
 import EXPRESSicon from "../../assets/icons/express.png";
 import SQLicon from "../../assets/icons/postgresSQL.png";
 import CV from "../../assets/LeonieZorzi_CV.pdf";
+import "./About.css";
 
 const About = props => {
   return (
@@ -104,7 +105,7 @@ const About = props => {
         <div className="subsection">
           <div className="row">
             <div className="download">
-              <a className="button" href={CV} download>
+              <a className="button-download" href={CV} download>
                 Download my CV
               </a>
             </div>
